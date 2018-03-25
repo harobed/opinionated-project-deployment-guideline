@@ -1,4 +1,6 @@
-# My opinionated project deployment guideline (draft)
+# My opinionated project deployment guideline
+
+Status: Draft / Work in progress
 
 This is my opinionated guideline to deploy one application:
 

@@ -30,7 +30,7 @@ This is my opinionated guideline to deploy one application:
 * Monitor your servers, I suggest this stack [Prometheus](https://prometheus.io/) ❤️ + [Node exporter](https://github.com/prometheus/node_exporter) ❤️ + [Grafana](https://grafana.com/) ❤️ + [alertmanager](https://prometheus.io/docs/alerting/alertmanager/) ❤️
 * Export your app monitoring data to [Prometheus](https://prometheus.io/)
 * [Do things that don't scale](http://paulgraham.com/ds.html)
-  * First install your application on one server or one server by service. Use simply [docker-compose](https://docs.docker.com/compose/)
+  * First install your application on one server or one server by service. Use simply [docker-compose](https://docs.docker.com/compose/) with [watchtower](https://github.com/v2tec/watchtower) ❤️
   * Next, when you need to scale your service, simply migrate your Docker-compose configuration to [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) cluster
 * Provide script to execute load testing
 * [Deploy several environments](https://en.wikipedia.org/wiki/Deployment_environment):
